@@ -3,10 +3,10 @@
 This README provides a brief overview of the Cloud Engineering Bootcamp project and the completed steps:
 
 * Azure VM and Firewall Setup:
-  - Created an Azure Virtual Machine.
+  - Created an Azure Virtual Machine (Windows 11).
   - Added a firewall rule for remote connections.
   
-* SQL Server and SSMS Installation
+* Installed SQL Server and SSMS on the VM.
 
 * Used SSMS to restore a database from a .bak file, simulating an on-premises setup.
 
