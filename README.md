@@ -1,6 +1,24 @@
 # azure-database-migration224
 
-## Initial setup 
+This README provides a brief overview of the Cloud Engineering Bootcamp project and the completed steps:
 
-To start working on this project, I created an Azure (Windows 11) Virtual Machine and I then installed SQL Server 2022 and SSMS (SQL Server Management Studio). 
-I then restored a Database from a .bak file using SSMS backup restoration functionality. 
+* Azure VM and Firewall Setup:
+
+- Created an Azure Virtual Machine.
+- Added a firewall rule for remote connections.
+  
+* SQL Server and SSMS Installation
+
+
+* Used SSMS to restore a database from a .bak file, simulating an on-premises setup.
+
+* Azure Server and Database Creation:
+
+- Created an Azure SQL Server.
+- Provisioned a SQL Database on Azure.
+
+* Database Migration to Azure:
+
+- Utilized Data Studio to migrate the on-premises database to Azure.
+
+
