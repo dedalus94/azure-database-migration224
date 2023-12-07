@@ -21,6 +21,8 @@ This README provides a brief overview of the Cloud Engineering Bootcamp project 
   - Utilized Data Studio to migrate the on-premises database to Azure.
  
 ## Dev environment setup and data loss simulation
+
+* Created a dev VM and restored the same DB to recreate a parallel environment for testing
     
 
 
