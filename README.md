@@ -19,6 +19,8 @@ This README provides a brief overview of the Cloud Engineering Bootcamp project 
 * Database Migration to Azure:
   - Downloaded Data Studio and the following extensions: **Azure SQL Migration** and **SQL Server schema compare** 
   - Utilized Data Studio to migrate the on-premises database to Azure.
+ 
+## Dev environment setup and data loss simulation
     
 
 
