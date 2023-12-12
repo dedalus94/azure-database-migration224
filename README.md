@@ -14,15 +14,24 @@ This README provides a brief overview of the Cloud Engineering Bootcamp project 
 
 * Azure Server and Database Creation:
   - Created an Azure SQL Server.
-  - Provisioned a SQL Database on Azure.
+  - Provisioned an SQL Database on Azure.
 
 * Database Migration to Azure:
   - Downloaded Data Studio and the following extensions: **Azure SQL Migration** and **SQL Server schema compare** 
-  - Utilized Data Studio to migrate the on-premises database to Azure.
+  - Utilized Data Studio to migrate the on-premises database to Azure (completed in roughly 7 minutes).
  
 ## Dev environment setup and data loss simulation
 
 * Created a dev VM and restored the same DB to recreate a parallel environment for testing
+* Automated backup of the dev db:
+    * started SQL Server Agent
+    * Ran the T-SQL:
+    * CREATE CREDENTIAL [YourCredentialName]
+      WITH IDENTITY = '[Your Azure Storage Account Name]',
+      SECRET = 'Access Key';
+    * created an automated maintenance plan to automate backups on a weekly schedule
+      ![image](https://github.com/dedalus94/azure-database-migration224/assets/49538048/fb81dbab-9a1f-48b1-9389-aacd97dff733)
+
     
 
 
