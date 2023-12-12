@@ -6,7 +6,7 @@ This README provides a brief overview of the Cloud Engineering Bootcamp project 
 
 * Azure VM and Firewall Setup:
   - Created an Azure Virtual Machine (Windows 11).
-  - Added a firewall rule for remote connections.
+  - Added a firewall rule for remote connections so that I could connect from my personal device.
   
 * Installed SQL Server and SSMS on the VM.
 
@@ -14,11 +14,12 @@ This README provides a brief overview of the Cloud Engineering Bootcamp project 
 
 * Azure Server and Database Creation:
   - Created an Azure SQL Server.
-  - Provisioned an SQL Database on Azure.
+  - Provisioned an SQL Database.
 
 * Database Migration to Azure:
   - Downloaded Data Studio and the following extensions: **Azure SQL Migration** and **SQL Server schema compare** 
   - Utilized Data Studio to migrate the on-premises database to Azure (completed in roughly 7 minutes).
+  - A full backup was generated using SSMS (tasks -> backup) and uploaded into a container that had been previously created within a storage account. 
  
 ## Dev environment setup and data loss simulation
 
