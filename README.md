@@ -36,6 +36,7 @@ The credential and the maintenance plan are visible in the object explorer:
 ![image](https://github.com/dedalus94/azure-database-migration224/assets/49538048/fb81dbab-9a1f-48b1-9389-aacd97dff733)
 
     * tested the maintenance plan by executing it: 
+    
 ![image](https://github.com/dedalus94/azure-database-migration224/assets/49538048/ee0de569-fb13-4616-8dc7-d6633fd0ef71)
 
 
