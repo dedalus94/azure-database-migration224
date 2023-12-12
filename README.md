@@ -26,9 +26,9 @@ This README provides a brief overview of the Cloud Engineering Bootcamp project 
 * Automated backup of the dev db:
     * started SQL Server Agent
     * Ran the T-SQL:
-    * CREATE CREDENTIAL [YourCredentialName]
+    `` CREATE CREDENTIAL [YourCredentialName]
       WITH IDENTITY = '[Your Azure Storage Account Name]',
-      SECRET = 'Access Key';
+      SECRET = 'Access Key';``
     * created an automated maintenance plan to automate backups on a weekly schedule
       ![image](https://github.com/dedalus94/azure-database-migration224/assets/49538048/fb81dbab-9a1f-48b1-9389-aacd97dff733)
 
