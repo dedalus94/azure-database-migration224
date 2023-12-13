@@ -68,10 +68,15 @@ SET AverageRate = 0.0;`` - 13532 rows affected
 ## Geo-replication and failover
 
 * Geo-replication allows to create a copy of a server in a different region so that if anything happens at the physical location of the primary server the data will still be available in the secondary location.
+  
 * After a server has been geo-replicated it is necessary to set up a *failover group*. This will be accessible from the primary server page and a failover can also be simulated here (with the primary and the secondary server swapping roles).
+  
 * Before the failover:
+  
 ![image](https://github.com/dedalus94/azure-database-migration224/assets/49538048/36a5e5f2-4214-4019-9144-e4db817c5439)
+
 * After the failover:
+  
 ![image](https://github.com/dedalus94/azure-database-migration224/assets/49538048/aab4128f-fd3b-44cb-8fe8-9442b9b0bf69)
 
 
