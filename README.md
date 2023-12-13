@@ -1,11 +1,24 @@
-![Azure Project Diagram](https://github.com/dedalus94/azure-database-migration224/assets/49538048/324d0964-baab-4013-b72b-339c1bcb91e9)# azure-database-migration224
+# azure-database-migration224
 
 This README provides a brief overview of the Cloud Engineering Bootcamp project and the completed steps.
 
 Final Architecture:
 
-
 ![Azure Project Diagram](https://github.com/dedalus94/azure-database-migration224/assets/49538048/c262ec1c-bbcb-4a99-8530-b912ce0d9a74)
+
+## Table of content 
+1. [Azure Database Migration224](#azure-database-migration224)
+2. [Final Architecture](#final-architecture)
+3. [Production DB Setup & Backup](#production-db-setup--backup)
+   - [Azure VM and Firewall Setup](#azure-vm-and-firewall-setup)
+   - [Azure Server and Database Creation](#azure-server-and-database-creation)
+   - [Database Migration to Azure](#database-migration-to-azure)
+4. [Dev Environment Setup and Data Loss Simulation](#dev-environment-setup-and-data-loss-simulation)
+   - [Set Up a Dev Environment](#set-up-a-dev-environment)
+   - [Automated Backup of the Dev DB](#automated-backup-of-the-dev-db)
+   - [Data Loss Simulation in the Azure Prod Environment & Disaster Recovery](#data-loss-simulation-in-the-azure-prod-environment--disaster-recovery)
+5. [Geo-replication and Failover](#geo-replication-and-failover)
+6. [Microsoft Entra ID for Azure SQL DB](#microsoft-entra-id-for-azure-sql-db)
 
 ## Production db setup & backup 
 
