@@ -48,11 +48,11 @@ The credential and the maintenance plan are visible in the object explorer:
   * Run the following statement to mimic data loss:
     
 `` DELETE FROM [AdventureWorks2022].[HumanResources].[EmployeePayHistory]
-WHERE Rate < 10.0;`` 
+WHERE Rate < 10.0;``  - 54 rows affected
 
 
 `` UPDATE [AdventureWorks2022].[Sales].[CurrencyRate]
-SET AverageRate = 0.0;`` 
+SET AverageRate = 0.0;`` - 13532 rows affected 
   
     
 
