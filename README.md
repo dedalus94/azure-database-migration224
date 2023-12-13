@@ -7,9 +7,6 @@ Final Architecture:
 
 ## Table of content 
 1. [Production DB Setup & Backup](#production-db-setup--backup)
-   - [Azure VM and Firewall Setup](#azure-vm-and-firewall-setup)
-   - [Azure Server and Database Creation](#azure-server-and-database-creation)
-   - [Database Migration to Azure](#database-migration-to-azure)
 2. [Dev Environment Setup and Data Loss Simulation](#dev-environment-setup-and-data-loss-simulation)
    - [Set Up a Dev Environment](#set-up-a-dev-environment)
    - [Automated Backup of the Dev DB](#automated-backup-of-the-dev-db)
