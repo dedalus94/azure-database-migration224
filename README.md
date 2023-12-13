@@ -6,7 +6,7 @@ Final Architecture:
 ![Azure Project Diagram](https://github.com/dedalus94/azure-database-migration224/assets/49538048/c262ec1c-bbcb-4a99-8530-b912ce0d9a74)
 
 ## Table of content 
-1. [Production DB Setup & Backup](#production-db-setup--backup)
+1. [Production DB setup, migration to an Azure SQL DB & initial backup backup](#production-db-setup-migration-to-an-azure-sql-db--initial-backup)
 2. [Dev Environment Setup and Data Loss Simulation](#dev-environment-setup-and-data-loss-simulation)
    - [Set Up a Dev Environment](#set-up-a-dev-environment)
    - [Automated Backup of the Dev DB](#automated-backup-of-the-dev-db)
