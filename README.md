@@ -46,8 +46,10 @@ The credential and the maintenance plan are visible in the object explorer:
 ### Data loss simulation in the prod environment 
 
   * Run the following statement to mimic data loss:
+    
 `` DELETE FROM [AdventureWorks2022].[HumanResources].[EmployeePayHistory]
 WHERE Rate < 10.0;`` 
+
 
 `` UPDATE [AdventureWorks2022].[Sales].[CurrencyRate]
 SET AverageRate = 0.0;`` 
