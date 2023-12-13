@@ -53,7 +53,11 @@ WHERE Rate < 10.0;``  - 54 rows affected
 
 `` UPDATE [AdventureWorks2022].[Sales].[CurrencyRate]
 SET AverageRate = 0.0;`` - 13532 rows affected 
-  
+
+  * Using the 'restore' option from the Azure portal, is possible to restore an Azure SQL Database to a point in time, thanks to Azure frequent automated backups. The restored db is visible in Data Studio once deployment is complete and the data is there too:
+
+![image](https://github.com/dedalus94/azure-database-migration224/assets/49538048/beb82d98-3be1-4722-89bf-f9760f2817de)
+
     
 
 
