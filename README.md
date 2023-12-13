@@ -3,7 +3,6 @@
 This README provides a brief overview of the Cloud Engineering Bootcamp project and the completed steps.
 
 Final Architecture:
-
 ![Azure Project Diagram](https://github.com/dedalus94/azure-database-migration224/assets/49538048/c262ec1c-bbcb-4a99-8530-b912ce0d9a74)
 
 ## Table of content 
