@@ -50,7 +50,7 @@ Final Architecture:
     `` CREATE CREDENTIAL [YourCredentialName]
       WITH IDENTITY = '[Your Azure Storage Account Name]',
       SECRET = 'Access Key';``
-  * Created an automated maintenance plan to automate backups on a weekly schedule.
+  * Created an automated maintenance plan to automate backups on a weekly schedule. This is to ensure backups of the on-prem dev DB that was not migrated to an Azure SQL DB - which comes with an automated backup system
 The credential and the maintenance plan are visible in the object explorer:
       
 ![image](https://github.com/dedalus94/azure-database-migration224/assets/49538048/fb81dbab-9a1f-48b1-9389-aacd97dff733)
