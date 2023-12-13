@@ -1,6 +1,7 @@
 # azure-database-migration224
 
-This README provides a brief overview of the Cloud Engineering Bootcamp project and the completed steps:
+This README provides a brief overview of the Cloud Engineering Bootcamp project and the completed steps.
+
 
 ## Production db setup & backup 
 
@@ -19,13 +20,17 @@ This README provides a brief overview of the Cloud Engineering Bootcamp project 
 * Database Migration to Azure:
   - Downloaded Data Studio and the following extensions: **Azure SQL Migration** and **SQL Server schema compare** 
   - Utilized Data Studio to migrate the on-premises database to Azure (completed in roughly 7 minutes).
-  - A full backup was generated using SSMS (tasks -> backup) and uploaded into a container that had been previously created within a storage account. 
+  - A full backup was generated using SSMS (tasks -> backup) and uploaded into a container that had been previously created within a storage account.
+ 
+    
  
 ## Dev environment setup and data loss simulation
+
 
 ### Set up a dev environment
 
 * Created a dev VM and restored the same DB to recreate a parallel environment for testing
+  
   
 ### Automated backup of the dev db:
 
@@ -43,7 +48,8 @@ The credential and the maintenance plan are visible in the object explorer:
     
 ![image](https://github.com/dedalus94/azure-database-migration224/assets/49538048/ee0de569-fb13-4616-8dc7-d6633fd0ef71)
 
-### Data loss simulation in the *Azure* prod environment 
+
+### Data loss simulation in the *Azure* prod environment ^ disaster recovery
 
   * Run the following statement to mimic data loss:
     
@@ -54,7 +60,7 @@ WHERE Rate < 10.0;``  - 54 rows affected
 `` UPDATE [AdventureWorks2022].[Sales].[CurrencyRate]
 SET AverageRate = 0.0;`` - 13532 rows affected 
 
-  * Using the 'restore' option from the Azure portal, is possible to restore an Azure SQL Database to a point in time, thanks to Azure frequent automated backups. The restored db is visible in Data Studio once deployment is complete and the data is there too:
+  * Using the 'restore' option in the the Azure portal, is possible to restore an Azure SQL Database to a point in time, thanks to Azure's frequent automated backups. The restored db is visible in Data Studio (once the deployment is complete) and all the deleted data is back too:
 
 ![image](https://github.com/dedalus94/azure-database-migration224/assets/49538048/beb82d98-3be1-4722-89bf-f9760f2817de)
 
