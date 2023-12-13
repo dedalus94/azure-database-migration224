@@ -85,7 +85,7 @@ SET AverageRate = 0.0;`` - 13532 rows affected
 
 * set up my own Azure account as the Microsoft Entra ID Admin for the DB and tested the connection in Data Studio.
 * Created a new user in the Microsoft Entra ID page
-* used the following query to assign a DB reader role to the new user: ``CREATE USER [DB_Reader@yourdomain.com] FROM EXTERNAL PROVIDER;
+* used the following query template to assign a DB reader role to the new user: ``CREATE USER [DB_Reader@yourdomain.com] FROM EXTERNAL PROVIDER;
 ALTER ROLE db_datareader ADD MEMBER [DB_Reader@yourdomain.com];``
 
     
