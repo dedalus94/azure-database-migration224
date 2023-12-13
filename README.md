@@ -79,7 +79,9 @@ SET AverageRate = 0.0;`` - 13532 rows affected
   
 ![image](https://github.com/dedalus94/azure-database-migration224/assets/49538048/aab4128f-fd3b-44cb-8fe8-9442b9b0bf69)
 
+* hitting failover again will switch back to the original configuration. Failovers can also be planned so that maintenance tasks can be carried out without affecting data availability or to test the secondary region server's ability to cope with the workload. 
 
+## Microsoft Entra ID for Azure SQL DB
 
     
 
