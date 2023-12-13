@@ -5,7 +5,7 @@ This README provides a brief overview of the Cloud Engineering Bootcamp project 
 Final Architecture:
 ![Azure Project Diagram](https://github.com/dedalus94/azure-database-migration224/assets/49538048/c262ec1c-bbcb-4a99-8530-b912ce0d9a74)
 
-## Table of content 
+## Table of contents 
 1. [Production DB setup, migration to an Azure SQL DB & initial backup](#production-db-setup-migration-to-an-azure-sql-db--initial-backup)
 2. [Dev Environment Setup and Data Loss Simulation](#dev-environment-setup-and-data-loss-simulation)
    - [Set Up a Dev Environment](#set-up-a-dev-environment)
