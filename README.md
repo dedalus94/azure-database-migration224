@@ -14,7 +14,7 @@ Final Architecture:
 3. [Geo-replication and Failover](#geo-replication-and-failover)
 4. [Microsoft Entra ID for Azure SQL DB](#microsoft-entra-id-for-azure-sql-db)
 
-## Production DB setup & backup 
+## Production DB setup, migration to an Azure SQL DB & initial backup backup 
 
 * Azure VM and Firewall Setup:
   - Created an Azure Virtual Machine (Windows 11).
