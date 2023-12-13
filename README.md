@@ -43,7 +43,7 @@ The credential and the maintenance plan are visible in the object explorer:
     
 ![image](https://github.com/dedalus94/azure-database-migration224/assets/49538048/ee0de569-fb13-4616-8dc7-d6633fd0ef71)
 
-### Data loss simulation in the **Azure** prod environment 
+### Data loss simulation in the *Azure* prod environment 
 
   * Run the following statement to mimic data loss:
     
