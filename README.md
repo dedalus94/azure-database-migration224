@@ -87,6 +87,10 @@ SET AverageRate = 0.0;`` - 13532 rows affected
 * Created a new user in the Microsoft Entra ID page
 * used the following query template to assign a DB reader role to the new user: ``CREATE USER [DB_Reader@yourdomain.com] FROM EXTERNAL PROVIDER;
 ALTER ROLE db_datareader ADD MEMBER [DB_Reader@yourdomain.com];``
+* Added a new account into Data Studio that prompted the first login of the Entra ID account (so the user can select a new password and set the multi-factor authentication)
+* established a new connection with the reader account to the DB (visible on the left in the following screenshot) and then tested that the right permissions were in place: 
+![image](https://github.com/dedalus94/azure-database-migration224/assets/49538048/c0e28b0f-1c00-4381-bb14-1fa65f3bd344)
+
 
     
 
