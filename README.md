@@ -2,7 +2,7 @@
 
 In this project, I implemented a cloud-based database system on Microsoft Azure.
 
-I started by establishing a production environment database. Subsequently, I migrated the database to Azure SQL Database. These efforts will strengthen your data management approach.
+I started by establishing a production environment database (a SQL server database on an Azure VM to simulate an on-prem production scneario). Subsequently, I migrated the database to Azure SQL Database, focusing on crucial aspects like data backup, restoration, and automated scheduling. I also established a development environment on an Azure VM machine (also to simulate an on-prem configuration) and used SQL Server Management Studio to set a connection to Azure, schedule weekly backups, and store them in the cloud. 
 
 I then simulated a disaster recovery scenario with potential data loss. And finally set up geo-replication and failover configuration to ensure data availability.
 
