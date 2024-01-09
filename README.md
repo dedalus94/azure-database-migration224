@@ -1,6 +1,12 @@
 # azure-database-migration224
 
-This README provides a brief overview of the Cloud Engineering Bootcamp project and the completed steps.
+In this project, I implemented a cloud-based database system on Microsoft Azure.
+
+I started by establishing a production environment database. Subsequently, I migrated the database to Azure SQL Database. These efforts will strengthen your data management approach.
+
+I then simulated a disaster recovery scenario with potential data loss. And finally set up geo-replication and failover configuration to ensure data availability.
+
+To enhance security, Microsoft Entra ID integration has been employed to define access roles, adding an extra layer of control and protection.
 
 Final Architecture:
 ![Azure Project Diagram](https://github.com/dedalus94/azure-database-migration224/assets/49538048/c262ec1c-bbcb-4a99-8530-b912ce0d9a74)
